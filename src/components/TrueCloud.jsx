@@ -25,13 +25,13 @@ const TrueCloud = () => {
           <div className="md:w-5/12 w-full px-3">
             <div className="row pt-[25px] items-center">
               <div className="w-1/3 px-3">
-                <img src={cpanel} alt="cpanel" className=" aspect-[3/2] " />
+                <img src={cpanel} alt="cpanel" className=" aspect-[3/2]  " />
               </div>
               <div className="w-1/3 px-3">
-                <img src={imunify} alt="cpanel" className=" aspect-[3/2] " />
+                <img src={imunify} alt="cpanel" className=" aspect-[3/2]  " />
               </div>
               <div className="w-1/3 px-3">
-                <img src={lightspeed} alt="cpanel" className=" aspect-[3/2] " />
+                <img src={lightspeed} alt="cpanel" className=" aspect-[3/2]  " />
               </div>
               <div className="w-1/3 px-3 pt-[42px]">
                 <img src={softa} alt="cpanel" className=" aspect-[3/2]" />

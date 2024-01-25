@@ -16,146 +16,154 @@ const Footerlogo = () => {
             </p>
           </div>
           <div className="xl:w-7/12 lg:w-8/12 w-full px-3 pt-4">
-            <div className="row">
-              <div className="md:w-1/4 sm:w-1/3 w-1/2 md:pt-0 pt-6 px-3">
-                <ul>
-                  <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">
-                    Service
-                  </li>
-                </ul>
-                <ul>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Domain
-                    </a>
-                  </li>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Shared Hosting
-                    </a>
-                  </li>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Cloud Hosting
-                    </a>
-                  </li>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Private Hosting
-                    </a>
-                  </li>
-                </ul>
+            <div className="row justify-end ">
+              <div className="md:w-1/4 sm:w-1/3 flex  w-1/2 md:pt-0 pt-6 px-3">
+                <div>
+                    <ul>
+                      <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">
+                        Service
+                      </li>
+                    </ul>
+                    <ul>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          Domain
+                        </a>
+                      </li>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          Shared Hosting
+                        </a>
+                      </li>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          Cloud Hosting
+                        </a>
+                      </li>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          Private Hosting
+                        </a>
+                      </li>
+                    </ul>
+                </div>
               </div>
-              <div className="md:w-1/4 sm:w-1/3 w-1/2 md:pt-0 pt-6 px-3">
-                <ul>
-                  <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">
-                    Hosting
-                  </li>
-                </ul>
-                <ul>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Cheap Hosting
-                    </a>
-                  </li>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Hosting Wordpress
-                    </a>
-                  </li>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Email Hosting
-                    </a>
-                  </li>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Hosting Unlimited
-                    </a>
-                  </li>
-                </ul>
+              <div className="md:w-1/4 sm:w-1/3 w-1/2 flex justify-end  md:pt-0 pt-6 px-3">
+                <div>
+                    <ul>
+                      <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">
+                        Hosting
+                      </li>
+                    </ul>
+                    <ul>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          Cheap Hosting
+                        </a>
+                      </li>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          Hosting Wordpress
+                        </a>
+                      </li>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          Email Hosting
+                        </a>
+                      </li>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          Hosting Unlimited
+                        </a>
+                      </li>
+                    </ul>
+                </div>
               </div>
-              <div className="md:w-1/4 sm:w-1/3 w-1/2 md:pt-0 pt-6 px-3">
-                <ul>
-                  <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">
-                    Company
-                  </li>
-                </ul>
-                <ul>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Career
-                    </a>
-                  </li>
-                  <li className="sm:pt-6 pt-3">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Contact Us
-                    </a>
-                  </li>
-                </ul>
+              <div className="md:w-1/4 sm:w-1/3 w-1/2 flex justify-end md:pt-0 pt-6 px-3">
+                <div>
+                    <ul>
+                      <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">
+                        Company
+                      </li>
+                    </ul>
+                    <ul>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          About
+                        </a>
+                      </li>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          Career
+                        </a>
+                      </li>
+                      <li className="sm:pt-6 pt-3">
+                        <a
+                          href="#"
+                          className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                        >
+                          Contact Us
+                        </a>
+                      </li>
+                    </ul>
+                </div>
               </div>
-              <div className="md:w-1/4 sm:w-1/3 w-1/2 md:pt-0 pt-6 px-3">
-                <ul>
-                  <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">
-                    Help
-                  </li>
-                </ul>
-                <ul>
-                  <li className="pt-6">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      FAQ
-                    </a>
-                  </li>
-                  <li className="pt-6">
-                    <a
-                      href="#"
-                      className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
-                    >
-                      Help support
-                    </a>
-                  </li>
-                </ul>
+              <div className="md:w-1/4 sm:w-1/3 w-1/2 flex justify-end md:pt-0 pt-6 px-3">
+               <div>
+                 <ul>
+                   <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">
+                     Help
+                   </li>
+                 </ul>
+                 <ul>
+                   <li className="pt-6">
+                     <a
+                       href="#"
+                       className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                     >
+                       FAQ
+                     </a>
+                   </li>
+                   <li className="pt-6">
+                     <a
+                       href="#"
+                       className="navhover after:bg-white  font-Inter text-sm sm:text-base font-normal text-[#E6E6E6]"
+                     >
+                       Help support
+                     </a>
+                   </li>
+                 </ul>
+               </div>
               </div>
             </div>
           </div>

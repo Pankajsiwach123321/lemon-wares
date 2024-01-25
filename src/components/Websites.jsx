@@ -1,10 +1,10 @@
 import React from "react";
-import JPNL from '../assets/images/JPNL.webp'
-import korane from '../assets/images/korane.webp'
-import nadine from '../assets/images/nadine.webp'
-import leeveon from '../assets/images/leevel.webp'
-import jrang from '../assets/images/jrang.webp'
-import invest from '../assets/images/crypto.webp'
+import JPNL from "../assets/images/JPNL.webp";
+import korane from "../assets/images/korane.webp";
+import nadine from "../assets/images/nadine.webp";
+import leeveon from "../assets/images/leevel.webp";
+import jrang from "../assets/images/jrang.webp";
+import invest from "../assets/images/crypto.webp";
 const Websites = () => {
   return (
     <div className="sm:mt-[69px] mt-[32px]" id="blog">
@@ -22,23 +22,23 @@ const Websites = () => {
           <div className="md:w-5/12 w-full px-3">
             <div className="row pt-[25px] items-center">
               <div className="w-1/3 px-3">
-                <img src={JPNL} alt="cpanel" className="  " />
-              </div>
-               <div className="w-1/3 px-3">
-                <img src={korane} alt="cpanel" className="  " />
+                <img src={JPNL} alt="cpanel" />
               </div>
               <div className="w-1/3 px-3">
-                <img src={nadine} alt="cpanel" className="  " />
+                <img src={korane} alt="cpanel" />
               </div>
               <div className="w-1/3 px-3">
-                <img src={leeveon} alt="cpanel" className=" " />
+                <img src={nadine} alt="cpanel" />
               </div>
               <div className="w-1/3 px-3">
-                <img src={jrang} alt="cpanel" className=" " />
+                <img src={leeveon} alt="cpanel" />
+              </div>
+              <div className="w-1/3 px-3">
+                <img src={jrang} alt="cpanel" />
               </div>
               <div className="w-1/3 px-3 ">
-                <img src={invest} alt="cpanel" className=" " />
-              </div> 
+                <img src={invest} alt="cpanel" />
+              </div>
             </div>
           </div>
         </div>
