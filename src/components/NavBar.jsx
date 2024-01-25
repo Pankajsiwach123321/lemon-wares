@@ -12,10 +12,10 @@ const NavBar = () => {
   }
   return (
     <div className=" sticky top-0 bg-white z-[6]">
-      <nav className="md:pt-[41px] pt-[21px]">
+      <nav className="md:pt-[41px] pt-[16px] pb-2">
         <div className="max-w-[1190px] mx-auto px-3">
           <div className=" flex justify-between items-center">
-            <ul className=" flex items-center lg:gap-[135px] gap-[35px]">
+            <ul className=" flex items-center lg:gap-[135px] gap-[18px]">
               <li className="flex items-center lg:gap-[65px] gap-[22px]">
                 <a href="#">
                   <img src={logo} alt="logo" className="w-[90px] h-[60px]" />
@@ -30,7 +30,7 @@ const NavBar = () => {
               <li
                 className={` ${
                   navshow ? "max-md:left-0" : "max-md:left-[-100%]"
-                } flex items-center lg:gap-[33px] gap-[22px] duration-300 max-md:justify-center max-md:absolute max-md:top-0  max-md:w-full z-[3] max-md:h-full max-md:bg-white max-md:flex-col`}
+                } flex items-center lg:gap-[33px] gap-[22px] duration-300 max-md:justify-center max-md:fixed max-md:top-0  max-md:w-full z-[3] max-md:h-full max-md:bg-white max-md:flex-col`}
               >
                 <a
                   onClick={show}

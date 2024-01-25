@@ -16,7 +16,7 @@ const RealStory = () => {
               Get inspired by these stories.
             </p>
             <div className=" md:flex md:justify-end pt-6">
-              <div className="md:max-w-[350px] shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] p-[46px_32px_96px_32px] rounded-[8px] ">
+              <div className="md:max-w-[350px] shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] p-[39px_32px_14px_32px] sm:p-[46px_32px_96px_32px] rounded-[8px] ">
                 <img src={cli} alt="cli" className="pl-[32px]" />
                 <div className="flex gap-[16px]">
                   <Sortcolone />
@@ -59,7 +59,7 @@ const RealStory = () => {
                 </div>
               </div>
             </div>
-            <div className="shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] p-[41px_32px_32px_32px] rounded-[8px] mt-[32px] md:max-w-[350px] ">
+            <div className="shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] sm:p-[41px_32px_32px_32px] p-[39px_32px_14px_32px] rounded-[8px] mt-[32px] md:max-w-[350px] ">
               <img src={Branding} alt="cli" className="pl-[32px]" />
               <div className="flex gap-[16px]">
                 <Sortcolone />
