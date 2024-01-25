@@ -11,7 +11,7 @@ const NavBar = () => {
     document.body.classList.remove("max-md:overflow-hidden");
   }
   return (
-    <div className=" sticky top-0 bg-white z-[6]">
+    <div className=" sticky top-0 bg-white z-[20]">
       <nav className="md:pt-[41px] pt-[16px] pb-2">
         <div className="max-w-[1190px] mx-auto px-3">
           <div className=" flex justify-between items-center">
@@ -30,7 +30,7 @@ const NavBar = () => {
               <li
                 className={` ${
                   navshow ? "max-md:left-0" : "max-md:left-[-100%]"
-                } flex items-center lg:gap-[33px] gap-[22px] duration-300 max-md:justify-center max-md:fixed max-md:top-0  max-md:w-full z-[3] max-md:h-full max-md:bg-white max-md:flex-col`}
+                } flex items-center lg:gap-[33px] gap-[22px] duration-300 max-md:justify-center max-md:fixed max-md:top-0  max-md:w-full z-[30] max-md:h-full max-md:bg-white max-md:flex-col`}
               >
                 <a
                   onClick={show}
@@ -113,7 +113,7 @@ const NavBar = () => {
                 onClick={show}
                 className={`${
                   navshow ? " rotate-0 font-bold" : " rotate-90 font-medium"
-                } sm:text-[31px] text-[25px] max-md:block hidden  text-black hover:text-[#B00000] duration-300  relative z-[4]`}
+                } sm:text-[31px] text-[25px] max-md:block hidden  text-black hover:text-[#B00000] duration-300  relative z-[31]`}
               >
                 {navshow ? "x" : "|||"}
               </button>

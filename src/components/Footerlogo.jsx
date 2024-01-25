@@ -16,7 +16,7 @@ const Footerlogo = () => {
             </p>
           </div>
           <div className="xl:w-7/12 lg:w-8/12 w-full px-3 pt-4">
-            <div className="row justify-end ">
+            <div className="row">
               <div className="md:w-1/4 sm:w-1/3 flex  w-1/2 md:pt-0 pt-6 px-3">
                 <div>
                     <ul>
@@ -60,7 +60,7 @@ const Footerlogo = () => {
                     </ul>
                 </div>
               </div>
-              <div className="md:w-1/4 sm:w-1/3 w-1/2 flex justify-end  md:pt-0 pt-6 px-3">
+              <div className="md:w-1/4 sm:w-1/3 w-1/2 md:flex md:justify-end  md:pt-0 pt-6 px-3">
                 <div>
                     <ul>
                       <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">
@@ -103,7 +103,7 @@ const Footerlogo = () => {
                     </ul>
                 </div>
               </div>
-              <div className="md:w-1/4 sm:w-1/3 w-1/2 flex justify-end md:pt-0 pt-6 px-3">
+              <div className="md:w-1/4 sm:w-1/3 w-1/2 md:flex md:justify-end md:pt-0 pt-6 px-3">
                 <div>
                     <ul>
                       <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">
@@ -138,7 +138,7 @@ const Footerlogo = () => {
                     </ul>
                 </div>
               </div>
-              <div className="md:w-1/4 sm:w-1/3 w-1/2 flex justify-end md:pt-0 pt-6 px-3">
+              <div className="md:w-1/4 sm:w-1/3 w-1/2 md:flex md:justify-end md:pt-0 pt-6 px-3">
                <div>
                  <ul>
                    <li className=" text-white font-Inter text-sm sm:text-base font-bold leading-[24px]">

@@ -31,7 +31,7 @@ const Herosection = () => {
                   Tabs === "tab2"
                     ? "after:w-[80%] text-[#B00000]"
                     : "after:w-0 text-[#DBD9D9]"
-                } duration-300 after:duration-300  font-Poppins font-semibold ml-[23px]  text-[15px] leading-normal text-[#DBD9D9] after:absolute relative  after:h-[1px] after:bg-[#B00000] after:left-[7%] after:bottom-[-5px] after:z-[2]`}
+                } duration-300 after:duration-300  font-Poppins font-semibold ml-[23px]  text-[15px] leading-normal  after:absolute relative  after:h-[1px] after:bg-[#B00000] after:left-[7%] after:bottom-[-5px] after:z-[2]`}
               >
                 Domain
               </a>
@@ -42,7 +42,7 @@ const Herosection = () => {
                   Tabs === "tab3"
                     ? "after:w-[80%] text-[#B00000]"
                     : "after:w-0 text-[#DBD9D9]"
-                } duration-300 after:duration-300  font-Poppins font-semibold ml-[18px]  text-[15px] leading-normal text-[#DBD9D9] after:absolute relative  after:h-[1px] after:bg-[#B00000] after:left-[7%] after:bottom-[-5px] after:z-[2]`}
+                } duration-300 after:duration-300  font-Poppins font-semibold ml-[18px]  text-[15px] leading-normal  after:absolute relative  after:h-[1px] after:bg-[#B00000] after:left-[7%] after:bottom-[-5px] after:z-[2]`}
               >
                 SEO
               </a>
@@ -53,7 +53,7 @@ const Herosection = () => {
                   Tabs === "tab4"
                     ? "after:w-[80%] text-[#B00000]"
                     : "after:w-0 text-[#DBD9D9]"
-                } duration-300 after:duration-300  font-Poppins font-semibold ml-[15px]  text-[15px] leading-normal text-[#DBD9D9] after:absolute relative  after:h-[1px] after:bg-[#B00000] after:left-[7%] after:bottom-[-5px] after:z-[2]`}
+                } duration-300 after:duration-300  font-Poppins font-semibold ml-[15px]  text-[15px] leading-normal  after:absolute relative  after:h-[1px] after:bg-[#B00000] after:left-[7%] after:bottom-[-5px] after:z-[2]`}
               >
                 Email
               </a>
