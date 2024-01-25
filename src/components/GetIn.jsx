@@ -2,17 +2,6 @@ import React from "react";
 import { Redbetween, Redbottom, Redtop } from "../assets/svg/icon";
 
 const GetIn = () => {
-  let message = `1 day validity: Dial 1662#
-30 day validity: Dial 1664#
-1 GB/day for 28 days: Rs. 265
-2 GB/day for 35 days: Rs. 289
-4 GB/day for 30 days: Rs. 299
-25 GB for 30 days: Rs. 296
-1.5 GB/day for 28 days: Rs. 299`;
-  function whatsapplink() {
-    let whatsappurl = "whatsapp://send?text=" + encodeURIComponent(message);
-    window.location.href = whatsappurl;
-  }
   return (
     <div className="sm:pt-[125px] max-sm:py-[50px] sm:pb-[110px]" id="contact">
       <div className=" max-w-[1232px] px-3 mx-auto">
@@ -20,10 +9,9 @@ const GetIn = () => {
           <h2 className=" max-w-[1024px] text-[#2E2E2E] font-Poppins text-[20px] sm:text-[42px] md:text-[64px] font-bold leading-[35px] sm:leading-[71px] md:leading-[88px] text-center mx-auto">
             We're here to make your website awesome.
           </h2>
-          <button
-            onClick={whatsapplink}
-            href="#"
-            className="text-white hover:text-[#B00000] border-transparent border hover:border-[#b00000] group font-Poppins text-sm font-normal leading-[24px] flex items-center gap-[9px] p-[12px_16px] bg-[#B00000] hover:bg-transparent duration-300 rounded-[8px] max-w-[208px] mx-auto mt-[40px] "
+          <a
+            href="tel:+919992148553"
+            className=" border-transparent border hover:border-[#b00000] group  flex items-center gap-[9px] p-[12px_16px] bg-[#B00000] hover:bg-transparent duration-300 rounded-[8px] max-w-[208px] mx-auto mt-[40px] "
           >
             <svg
               width="25"
@@ -38,8 +26,10 @@ const GetIn = () => {
                 fill="white"
               />
             </svg>
-            Get in touch with us
-          </button>
+            <p className="duration-300 text-white  group-hover:text-[#B00000] font-Poppins text-sm font-normal leading-[24px]">
+              Get in touch with us
+            </p>
+          </a>
           <span className=" absolute top-0 left-[35%] ">
             <Redtop />
           </span>

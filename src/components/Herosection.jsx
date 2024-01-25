@@ -8,7 +8,7 @@ const Herosection = () => {
     settabs(tab);
   }
   return (
-    <div>
+    <div className="md:pt-[80px] pt-[30px]">
       <div className=" max-w-[1190px] mx-auto px-3">
         <div className="row">
           <div className="lg:w-1/2 w-full px-3">

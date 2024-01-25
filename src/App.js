@@ -12,7 +12,7 @@ import Footerlogo from './components/Footerlogo';
 import Backtop from './components/Backtop';
 import { useEffect, useState } from 'react';
 import Loader from './components/Loder';
-
+document.body.classList.add("overflow-hidden")
 function App() {
   const [preloder, setpreloder] = useState(true)
   setTimeout(() => {

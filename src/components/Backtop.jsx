@@ -24,10 +24,10 @@ const Backtop = () => {
           onClick={() =>
             setPosition({ ...position, position: { top: 0, left: 0 } })
           }
-          className="fixed hidden bottom-[3%] right-[2%] z-30 translate-y-[0%] animate-bounce"
+          className="fixed hidden bottom-[3%] right-[2%] z-[25] translate-y-[0%] animate-bounce"
           ref={scrollTop}
         >
-          <div className="h-[52px] w-[52px] rounded-[50%] border-[]  cursor-pointer scroll-smooth transform-[all] transform-[.3s] transform-[linear]  flex justify-center items-center">
+          <div className="h-[52px] w-[52px] rounded-[50%] border  cursor-pointer scroll-smooth transform-[all] transform-[.3s] transform-[linear]  flex justify-center items-center">
             <img
               src={backtop}
               alt="backtop"

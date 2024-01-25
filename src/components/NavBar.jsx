@@ -11,8 +11,8 @@ const NavBar = () => {
     document.body.classList.remove("max-md:overflow-hidden");
   }
   return (
-    <div>
-      <nav className="md:py-[41px] py-[21px]">
+    <div className=" sticky top-0 bg-white z-[6]">
+      <nav className="md:pt-[41px] pt-[21px]">
         <div className="max-w-[1190px] mx-auto px-3">
           <div className=" flex justify-between items-center">
             <ul className=" flex items-center lg:gap-[135px] gap-[35px]">

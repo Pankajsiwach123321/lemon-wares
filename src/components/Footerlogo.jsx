@@ -8,7 +8,7 @@ const Footerlogo = () => {
       <div className="max-w-[1221px] mx-auto px-3 pt-8 sm:pt-[64px]">
         <div className="row">
           <div className="xl:w-5/12 lg:w-4/12 w-full px-3">
-            <img src={footerlogo} alt="footerlogo" />
+            <img src={footerlogo} alt="footerlogo" className=" cursor-pointer" />
             <p className=" max-w-[296px] font-Inter text-base font-normal leading-[32px] text-[#E6E6E6] pt-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla
