@@ -1,5 +1,5 @@
 import React from "react";
-import footerlogo from "../assets/images/footerlogo.png";
+import footerlogo from "../assets/images/footerlogo.webp";
 const Footerlogo = () => {
   const date = new Date();
   const year = date.getFullYear();

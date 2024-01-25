@@ -1,7 +1,7 @@
 import React from "react";
 import cli from "../assets/images/crypto.webp";
-import jpnl from "../assets/images/jnl.png";
-import Branding from "../assets/images/leeve.png";
+import jpnl from "../assets/images/jnl.webp";
+import Branding from "../assets/images/leeve.webp";
 import { Sortcolone } from "../assets/svg/icon";
 const RealStory = () => {
   return (
@@ -9,7 +9,7 @@ const RealStory = () => {
       <div className=" max-w-[920px] mx-auto px-3">
         <div className="row">
           <div className="md:w-1/2 w-full px-3">
-            <h2 className=" sm:text-[48px] text-[38px] max-w-[445px] font-extrabold leading-[64px] font-Inter text-[#18191F] relative after:absolute after:left-[-12px] lg:after:left-[-55px] xl:after:left-[-95px] after:top-[-56px] z-1 after:z-[-1] after:content-[url(./assets/images/bigmark.png)] after:w-[143px] after:h-[120px]">
+            <h2 className=" sm:text-[48px] text-[38px] max-w-[445px] font-extrabold leading-[64px] font-Inter text-[#18191F] relative after:absolute after:left-[-12px] lg:after:left-[-55px] xl:after:left-[-95px] after:top-[-56px] z-1 after:z-[-1] after:content-[url(./assets/images/bigmark.webp)] after:w-[143px] after:h-[120px]">
               Real Stories from Real Customers
             </h2>
             <p className="text-[#18191F] font-Inter text-lg font-normal leading-[32px] pt-2">
