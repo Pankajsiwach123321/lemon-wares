@@ -66,7 +66,7 @@ const Herosection = () => {
               {Tabs === "tab4" && " Email "}
               for Your Website
             </h1>
-            <p className=" lg:max-w-[448px] text-[#808080] font-Inter text-base font-normal leading-[28px] tracking-[0.8px] pt-[34px]">
+            <p className=" lg:max-w-[448px] text-[#808080] font-Inter text-base font-normal leading-[28px] tracking-[0.8px] sm:pt-[34px] pt-[16px]">
               Blazing fast web hosting for individuals and businesses of all
               sizes backed by 24x7x365 Support.
             </p>

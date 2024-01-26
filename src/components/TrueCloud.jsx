@@ -11,10 +11,10 @@ const TrueCloud = () => {
       <div className="max-w-[1284px] mx-auto px-3">
         <div className="row items-center">
           <div className="md:w-7/12 w-full px-3">
-            <h2 className=" lg:text-[48px] text-[38px] font-extrabold lg:leading-[64px] leading-[54px] font-Inter text-[#18191F]">
+            <h2 className=" lg:text-[48px] text-[38px] font-extrabold lg:leading-[64px] leading-[45px] font-Inter text-[#18191F]">
               True Cloud Web Hosting
             </h2>
-            <p className=" text-[#18191F] font-Inter text-[18px] pt-[30px] font-normal leading-[32px] max-w-[573px]">
+            <p className=" text-[#18191F] font-Inter text-[18px] sm:pt-[30px] pt-[24px] font-normal leading-[32px] max-w-[573px]">
               True Cloud Web Hosting All of the hosting packages we offer are
               deployed instantly on our SSD powered cloud. We don’t use
               dedicated servers that operate on single pieces of hardware. Our

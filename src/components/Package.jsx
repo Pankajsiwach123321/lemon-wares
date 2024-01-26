@@ -60,14 +60,14 @@ const Package = () => {
       key={index}
       className="lg:w-1/3 flex justify-center  sm:w-1/2 w-full px-3 pt-6"
     >
-      <div className="p-[34px_27px_48px_35px] max-w-[299px] rounded-[15px] border-[1.5px] border-[#C4C4C4] shadow-[0_0_4px_0_rgba(0,0,0,0.25)_inset]">
+      <div className="sm:p-[34px_27px_48px_35px] p-[27px] max-w-[299px] rounded-[15px] border-[1.5px] border-[#C4C4C4] shadow-[0_0_4px_0_rgba(0,0,0,0.25)_inset]">
         <p className=" text-black font-Poppins text-[28px] font-semibold leading-[25px]">
           {e.main}
         </p>
         <p className=" font-Poppins text-xs font-normal leading-[18px] pt-[11px] max-w-[237px]">
           {e.translate}
         </p>
-        <p className=" text-black font-Poppins text-[42px] font-semibold leading-[32px] pt-[28px]">
+        <p className=" text-black font-Poppins text-[42px] font-semibold leading-[32px] sm:pt-[28px] pt-[24px]">
           {Toggle ? <span>{e.money2}</span> : <span>{e.money}</span>}
         </p>
         <p className="text-black font-Poppins text-sm font-light leading-[14px] pt-[11px]">
@@ -78,11 +78,11 @@ const Package = () => {
             Toggle
               ? "hover:text-[#FFE87A] hover:shadow-[0_0_4px_0_#FFE87A)_inset] hover:border-[#FFE87A]"
               : "hover:text-[#B00000] hover:border-[#B00000] hover:shadow-[0_0_4px_0_#B00000)_inset]"
-          } text-black   mt-[35px] font-Poppins text-sm font-semibold leading-[32px] py-[9px] w-full text-center border-[2px] border-black duration-300  rounded-[12px]`}
+          } text-black   sm:mt-[35px] mt-[20px] font-Poppins text-sm font-semibold leading-[32px] py-[9px] w-full text-center border-[2px] border-black duration-300  rounded-[12px]`}
         >
           Choose this Plan
         </button>
-        <div className="pt-[35px]">
+        <div className="pt-[20px] sm:pt-[35px]">
           <span className="flex items-center gap-[24px] pt-[15px]">
             <Tick />
             <p className=" text-[#808080] font-Inter text-base font-bold leading-[24px]">
@@ -146,14 +146,14 @@ const Package = () => {
       key={index}
       className="lg:w-1/3 sm:w-1/2 flex justify-center  w-full px-3 pt-6"
     >
-      <div className="p-[34px_27px_48px_35px] max-w-[299px] rounded-[15px] border-[1.5px] border-[#C4C4C4] shadow-[0_0_4px_0_rgba(0,0,0,0.25)_inset]">
+      <div className="sm:p-[34px_27px_48px_35px] p-[27px] max-w-[299px] rounded-[15px] border-[1.5px] border-[#C4C4C4] shadow-[0_0_4px_0_rgba(0,0,0,0.25)_inset]">
         <p className=" text-black font-Poppins text-[28px] font-semibold leading-[25px]">
           {p.main}
         </p>
         <p className=" font-Poppins text-xs font-normal leading-[18px] pt-[11px] max-w-[237px]">
           {p.translate}
         </p>
-        <p className=" text-black font-Poppins text-[42px] font-semibold leading-[32px] pt-[28px]">
+        <p className=" text-black font-Poppins text-[42px] font-semibold leading-[32px] sm:pt-[28px] pt-[24px]">
           {Toggle ? <span>{p.money2}</span> : <span>{p.money}</span>}
         </p>
         <p className="text-black font-Poppins text-sm font-light leading-[14px] pt-[11px]">
@@ -164,11 +164,11 @@ const Package = () => {
             Toggle
               ? "hover:text-[#FFE87A] hover:shadow-[0_0_4px_0_#FFE87A)_inset] hover:border-[#FFE87A]"
               : "hover:text-[#B00000] hover:border-[#B00000] hover:shadow-[0_0_4px_0_#B00000)_inset]"
-          } text-black   mt-[35px] font-Poppins text-sm font-semibold leading-[32px] py-[9px] w-full text-center border-[2px] border-black duration-300  rounded-[12px]`}
+          } text-black   sm:mt-[35px] mt-[20px] font-Poppins text-sm font-semibold leading-[32px] py-[9px] w-full text-center border-[2px] border-black duration-300  rounded-[12px]`}
         >
           Choose this Plan
         </button>
-        <div className="pt-[35px]">
+        <div className=" pt-[20px] sm:pt-[35px]">
           <span className="flex items-center gap-[24px] pt-[15px]">
             <Tick />
             <p className=" text-[#808080] font-Inter text-base font-bold leading-[24px]">
@@ -230,13 +230,13 @@ const Package = () => {
   return (
     <div className="sm:pt-[133px] pt-[60px]" id="account">
       <div className="max-w-[1097px] mx-auto px-3">
-        <h2 className=" text-center max-w-[650px] mx-auto text-black font-Poppins text-[35px] sm:text-[50px] font-semibold leading-[50px] sm:leading-[60px]">
+        <h2 className=" text-center max-w-[650px] mx-auto text-black font-Poppins text-[35px] sm:text-[50px] font-semibold leading-[45px] sm:leading-[60px]">
           Ready to get started with Lemon Wares?
         </h2>
-        <p className=" text-black text-[25px] font-Poppins text-center font-normal leading-[25px] pt-[38px]">
+        <p className=" text-black text-[25px] font-Poppins text-center font-normal leading-[25px] sm:pt-[38px] pt-[26px]">
           Choose the package that suits you
         </p>
-        <div className="pt-[57px] sm:gap-[26px] gap-[13px] flex  justify-center items-center max-w-[]">
+        <div className="sm:pt-[57px] pt-[26px] sm:gap-[26px] gap-[13px] flex  justify-center items-center ">
           <p className=" text-center font-Poppins text-[25px] font-normal leading-[25px]">
             Monthly
           </p>
@@ -262,7 +262,7 @@ const Package = () => {
             </p>
           </div>
         </div>
-        <div className="flex  max-w-[856px] mx-auto pt-[85px] border-b-[4px] border-b-[#C4C4C4] mb-[59px] pb-[6px] ">
+        <div className="flex  max-w-[856px] mx-auto sm:pt-[85px] pt-[30px] border-b-[4px] border-b-[#C4C4C4] sm:mb-[59px] mb-[30px] pb-[6px] ">
           <p
             onClick={() => changetab("tab1")}
             className={` w-1/2 text-center font-Poppins duration-300 cursor-pointer text-2xl sm:text-[30px] font-semibold leading-[40px] text-black after:absolute relative  after:h-[4px]  after:left-0 after:-bottom-[10px]  pb-[6px] ${

@@ -9,14 +9,14 @@ const RealStory = () => {
       <div className=" max-w-[920px] mx-auto px-3">
         <div className="row">
           <div className="md:w-1/2 w-full px-3">
-            <h2 className=" sm:text-[48px] text-[38px] max-w-[445px] font-extrabold leading-[64px] font-Inter text-[#18191F] relative after:absolute after:left-[-12px] lg:after:left-[-55px] xl:after:left-[-95px] after:top-[-56px] z-1 after:z-[-1] after:content-[url(./assets/images/bigmark.webp)] after:w-[143px] after:h-[120px]">
+            <h2 className=" sm:text-[48px] text-[38px] max-w-[445px] font-extrabold sm:leading-[64px] leading-[45px] font-Inter text-[#18191F] relative after:absolute after:left-[-12px] lg:after:left-[-55px] xl:after:left-[-95px] after:top-[-56px] z-1 after:z-[-1] after:content-[url(./assets/images/bigmark.webp)] after:w-[143px] after:h-[120px]">
               Real Stories from Real Customers
             </h2>
             <p className="text-[#18191F] font-Inter text-lg font-normal leading-[32px] pt-2">
               Get inspired by these stories.
             </p>
             <div className=" md:flex md:justify-end pt-6">
-              <div className="md:max-w-[350px] shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] p-[39px_32px_14px_32px] sm:p-[46px_32px_96px_32px] rounded-[8px] ">
+              <div className="md:max-w-[350px] shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] p-[26px] sm:p-[46px_32px_96px_32px] rounded-[8px] ">
                 <img src={cli} alt="cli" className="pl-[32px]" />
                 <div className="flex gap-[16px]">
                   <Sortcolone />
@@ -39,7 +39,7 @@ const RealStory = () => {
             </div>
           </div>
           <div className="md:w-1/2 w-full px-3 pt-6 md:pt-12">
-            <div className="shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] p-[39px_32px_14px_32px] rounded-[8px] ">
+            <div className="shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] sm:p-[39px_32px_14px_32px] p-[26px] rounded-[8px] ">
               <img src={jpnl} alt="cli" className="pl-[32px]" />
               <div className="flex gap-[16px]">
                 <Sortcolone />
@@ -59,7 +59,7 @@ const RealStory = () => {
                 </div>
               </div>
             </div>
-            <div className="shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] sm:p-[41px_32px_32px_32px] p-[39px_32px_14px_32px] rounded-[8px] mt-[32px] md:max-w-[350px] ">
+            <div className="shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] sm:p-[41px_32px_32px_32px] p-[26px] rounded-[8px] mt-[32px] md:max-w-[350px] ">
               <img src={Branding} alt="cli" className="pl-[32px]" />
               <div className="flex gap-[16px]">
                 <Sortcolone />

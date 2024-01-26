@@ -14,7 +14,7 @@ const Websites = () => {
             <h2 className=" lg:text-[48px] text-[38px] font-extrabold lg:leading-[64px] max-w-[445px] leading-[54px] font-Inter text-[#18191F]">
               We serve over 100 Nigerian Websites
             </h2>
-            <p className=" text-[#18191F] font-Inter text-[18px] pt-[30px] font-normal leading-[32px] max-w-[573px]">
+            <p className=" text-[#18191F] font-Inter text-[18px] sm:pt-[30px] pt-[24px] font-normal leading-[32px] max-w-[573px]">
               Connect LemonWares with your favourite tools that you use daily
               and keep things on track.
             </p>

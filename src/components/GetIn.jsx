@@ -5,12 +5,12 @@ const GetIn = () => {
   return (
     <div className="sm:pt-[125px] max-sm:py-[50px] sm:pb-[110px]" id="contact">
       <div className=" max-w-[1232px] px-3 mx-auto">
-        <div className="lg:p-[80px_90px_88px_118px] p-[40px] sm:p-[40px_50px] bg-[#F7FAFE] rounded-2xl relative">
-          <h2 className=" max-w-[1024px] text-[#2E2E2E] font-Poppins text-[20px] sm:text-[42px] md:text-[64px] font-bold leading-[35px] sm:leading-[71px] md:leading-[88px] text-center mx-auto">
+        <div className="lg:p-[80px_90px_88px_118px] p-[40px_12px] sm:p-[40px_50px] bg-[#F7FAFE] rounded-2xl relative">
+          <h2 className=" max-w-[1024px] text-[#2E2E2E] font-Poppins text-[28px] sm:text-[42px] md:text-[64px] font-bold leading-[35px] sm:leading-[71px] md:leading-[88px] text-center mx-auto">
             We're here to make your website awesome.
           </h2>
           <a
-            href="tel:+919992148553"
+            href="whatsapp://send?phone=+919992148553"
             className=" border-transparent border hover:border-[#b00000] group  flex items-center gap-[9px] p-[12px_16px] bg-[#B00000] hover:bg-transparent duration-300 rounded-[8px] max-w-[208px] mx-auto mt-[40px] "
           >
             <svg
@@ -30,7 +30,7 @@ const GetIn = () => {
               Get in touch with us
             </p>
           </a>
-          <span className=" absolute top-0 left-[35%] ">
+          <span className=" absolute top-0 left-[35%]  ">
             <Redtop />
           </span>
           <span className=" absolute bottom-[88px] left-[-15px] ">
